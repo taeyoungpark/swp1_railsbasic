@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   
   
+  resources :contacts
   get '/' => 'home#index'
   get '/about' => 'home#about'
   get '/muffin' => 'home#muffin'
